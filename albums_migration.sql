@@ -6,6 +6,6 @@ CREATE TABLE IF NOT EXISTS albums (
   name VARCHAR(100) NOT NULL,
   release_date INT NOT NULL,
   sales FLOAT NOT NULL,
-  genre VARCHAR(30),
+  genre VARCHAR(30) NOT NULL,
   PRIMARY KEY (id)
 );

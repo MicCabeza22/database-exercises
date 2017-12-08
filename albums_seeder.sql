@@ -1,4 +1,4 @@
-/* Credit for VALUES list goes to Po Lin */
+/* Credit for VALUES list goes to Ryan Orsinger */
 
 USE codeup_test_db;
 

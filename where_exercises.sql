@@ -1,6 +1,6 @@
 USE employees;
 
-SELECT gender, COUNT(gender)
+SELECT gender, COUNT(gender) AS 'gender_count'
 FROM employees
 WHERE (
   first_name = 'Irena'

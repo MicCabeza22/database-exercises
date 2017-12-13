@@ -19,7 +19,7 @@ SELECT CONCAT(first_name, ' ', last_name) AS 'full_name'
 
 SELECT CONCAT(
   'Employed for ',
-  datediff(CURDATE(), employees.hire_date),
+  datediff(CURDATE(), hire_date),
   ' days.'
   )
   FROM employees WHERE (

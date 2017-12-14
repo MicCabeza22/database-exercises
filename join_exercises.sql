@@ -1,6 +1,6 @@
 USE employees;
 
-SELECT DISTINCT d.dept_name AS 'Department Name', CONCAT(e.first_name, ' ', e.last_name) AS 'Department Manager'
+SELECT DISTINCT d.dept_name AS 'Department Name', CONCAT(e.first_name, ' ', e.last_name) AS 'Manager Name'
 FROM (departments AS d, employees AS e)
   JOIN dept_manager AS dm
     ON dm.emp_no = e.emp_no
